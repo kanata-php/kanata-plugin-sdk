@@ -1,5 +1,5 @@
 {
-    "name": "kanata/kanata-plugin-sdk",
+    "name": "kanata-php/kanata-plugin-sdk",
     "license": "MIT",
     "autoload": {
         "psr-4": {

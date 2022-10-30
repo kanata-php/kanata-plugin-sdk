@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0496d8037c2428f016d9b24fa0c783b7",
+    "content-hash": "4db9abebce2b0fff5bee90ce9ef2bb11",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -339,16 +339,16 @@
         },
         {
             "name": "kanata-php/sdk-util",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kanata-php/sdk-utils.git",
-                "reference": "4c8fe91b0a56953fb145c6966bfe190375a70bda"
+                "reference": "f5dd2eceee85e7f2481b66f695aa733751bc71e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kanata-php/sdk-utils/zipball/4c8fe91b0a56953fb145c6966bfe190375a70bda",
-                "reference": "4c8fe91b0a56953fb145c6966bfe190375a70bda",
+                "url": "https://api.github.com/repos/kanata-php/sdk-utils/zipball/f5dd2eceee85e7f2481b66f695aa733751bc71e5",
+                "reference": "f5dd2eceee85e7f2481b66f695aa733751bc71e5",
                 "shasum": ""
             },
             "require": {
@@ -357,15 +357,18 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Kanata\\Sdk\\": "src/"
+                    "KanataSdk\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
             "support": {
                 "issues": "https://github.com/kanata-php/sdk-utils/issues",
-                "source": "https://github.com/kanata-php/sdk-utils/tree/0.0.1"
+                "source": "https://github.com/kanata-php/sdk-utils/tree/0.0.2"
             },
-            "time": "2022-10-27T02:35:27+00:00"
+            "time": "2022-10-27T03:32:57+00:00"
         },
         {
             "name": "psr/http-client",
