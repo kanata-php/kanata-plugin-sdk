@@ -6,6 +6,14 @@ use KanataSdk\Response;
 
 trait PluginsTrait
 {
+    /**
+     * 2 parameters possible:
+     *   - plugin string - get a specific plugin by the slug
+     *   - search string - search plugins by full-text search
+     *
+     * @param array $params
+     * @return Response
+     */
     public function getPlugins(array $params = []): Response
     {
         $query = '';
