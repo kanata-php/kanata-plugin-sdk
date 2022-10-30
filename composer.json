@@ -1,0 +1,12 @@
+{
+    "name": "kanata/kanata-plugin-sdk",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "KanataPlugin\\": "src/"
+        }
+    },
+    "require": {
+        "kanata-php/sdk-util": "^0.0"
+    }
+}
